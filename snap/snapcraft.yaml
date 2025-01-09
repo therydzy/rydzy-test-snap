@@ -1,0 +1,12 @@
+name: rydzy-test-snap
+title: Rydz Test Snap
+base: bare
+build-base: core22
+version: 0.0.0
+summary: A testing that belongs to an organisation
+description: This is a testing snap that I created which belongs to an organisation
+grade: stable
+confinement: strict
+architectures:
+  - build-on: arm64
+    build-for: arm64
